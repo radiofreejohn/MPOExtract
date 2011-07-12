@@ -1,6 +1,6 @@
 MPOExtract
 
-This is a simple python script to read a stereo MPO image and output the left and right images.
+This is a simple python script to read a 3D stereo MPO image and output the left and right images.
 
 Example:
 ./MPOExtract.py IMAGXXX.mpo
