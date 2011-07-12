@@ -14,6 +14,7 @@ if len(sys.argv) == 2:
         print "size of left: ", len(dataLeft)
         ff.seek(0)
         data = ff.read()
+        ff.close()
         dataRight = data[:offset+6]
         filePair = os.path.splitext(inputFile)
         fileName = filePair[0]
