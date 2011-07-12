@@ -1,0 +1,12 @@
+MPOExtract
+
+This is a simple python script to read a stereo MPO image and output the left and right images.
+
+Example:
+./MPOExtract.py IMAGXXX.mpo
+
+Output:
+IMAGXXX-L.jpg
+IMAGXXX-R.jpg
+
+The left image will sometimes contain extra Exif data from the original header, such as GPS info.
